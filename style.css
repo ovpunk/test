@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+
+  line-height: 24px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  border-top: 1px solid #3681e5;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 87px;
+}
+
+.menu__list {
+  display: flex;
+}
+
+.menu__list li {
+  margin-left: 38px;
+}
+
+.menu__list a {
+  font-size: 14px;
+  color: #2f3f54;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+
+.top {
+  background-color: #3681e5;
+  padding-top: 150px;
+  padding-bottom: 180px;
+}
+
+.top-inner {
+  display: flex;
+}
+
+.top-info {
+  max-width: 555px;
+  margin-right: 35px;
+  color: #fff;
+}
+.top-info_subtitle {
+  font-size: 14px;
+  line-height: 24px;
+}
+.top-info__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 52px;
+  text-transform: uppercase;
+}
+.top-midle {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 52px;
+  margin-bottom: 35px;
+}
+
+.top-midle span {
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  font-weight: 400;
+}
+
+.top-info__list {
+  margin-bottom: 50px;
+}
+
+.top-info__list li {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 3px;
+  position: relative;
+  padding-left: 24px;
+}
+
+.top-info__list li::before {
+  content: "";
+  background-image: url(images/list-icon.png);
+  width: 13px;
+  height: 13px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top-info__btn {
+  color: #fff;
+  text-transform: uppercase;
+  border: 3px solid #fff;
+  padding: 13px 44px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.top-info__btn_deskription {
+}
+
+.top-images {
+}
+.top-images__box {
+}
+.top-images__circle {
+}
+.top-images__title {
+}
+.top-images__price {
+}
+.top-images__month {
+}
